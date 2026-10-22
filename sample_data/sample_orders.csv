@@ -1,0 +1,36 @@
+Shipping Mode,Days for shipment (scheduled),Type,Customer Segment,Department Name,Category Name,Market,Order Region,Order Item Quantity,Product Price,Sales,Order Item Discount,Order Profit Per Order,order_month,order_dayofweek,order_hour,is_weekend,is_rush_delivery,is_same_country,profit_margin,discount_ratio,is_loss_order,Actual_Late_Risk
+Standard Class,4,DEBIT,Consumer,Apparel,Men's Footwear,Europe,Western Europe,1,129.9900055,129.9900055,1.299999952,47.61999893,8,2,22,0,0,0,0.3635,0.0099,0,0
+Second Class,2,PAYMENT,Consumer,Outdoors,Accessories,Pacific Asia,West Asia,3,24.98999977,74.97000122,3.0,15.32999992,10,5,12,1,0,0,0.2018,0.0395,0,1
+Second Class,2,DEBIT,Corporate,Apparel,Cleats,Europe,Western Europe,4,59.99000168,239.9600067,2.400000095,64.13999939,8,3,8,0,0,0,0.2662,0.01,0,0
+Standard Class,4,DEBIT,Corporate,Golf,Women's Apparel,USCA,East of USA,1,50.0,50.0,1.0,2.450000048,6,0,1,0,0,0,0.048,0.0196,0,1
+Standard Class,4,CASH,Corporate,Apparel,Men's Footwear,Pacific Asia,Oceania,1,129.9900055,129.9900055,2.599999905,44.59000015,1,5,13,1,0,0,0.3404,0.0198,0,0
+Standard Class,4,TRANSFER,Consumer,Outdoors,Golf Shoes,Europe,Southern Europe,1,65.0,65.0,10.39999962,17.09000015,7,0,9,0,0,0,0.2589,0.1576,0,1
+Standard Class,4,DEBIT,Corporate,Golf,Shop By Sport,Pacific Asia,Southeast Asia,4,39.99000168,159.9600067,3.200000048,54.86999893,11,6,18,1,0,0,0.3409,0.0199,0,1
+Standard Class,4,TRANSFER,Consumer,Golf,Shop By Sport,Africa,West Africa,5,39.99000168,199.9499969,23.98999977,28.68000031,10,0,5,0,0,0,0.1427,0.1194,0,0
+Standard Class,4,DEBIT,Consumer,Golf,Shop By Sport,Pacific Asia,Southeast Asia,5,39.99000168,199.9499969,31.98999977,53.75,1,4,23,0,0,0,0.2675,0.1592,0,0
+Standard Class,4,CASH,Consumer,Fan Shop,Camping & Hiking,Europe,Southern Europe,1,299.980011,299.980011,0.0,143.9900055,9,4,6,0,0,0,0.4784,0.0,0,0
+Standard Class,4,DEBIT,Consumer,Fan Shop,Water Sports,Europe,Southern Europe,1,199.9900055,199.9900055,14.0,65.09999847,8,3,20,0,0,0,0.3239,0.0697,0,0
+Standard Class,4,DEBIT,Consumer,Fan Shop,Camping & Hiking,USCA,West of USA ,1,299.980011,299.980011,0.0,95.98999786,8,6,12,1,0,0,0.3189,0.0,0,1
+Standard Class,4,TRANSFER,Consumer,Golf,Girls' Apparel,Pacific Asia,South Asia,4,39.99000168,159.9600067,20.79000092,10.43999958,12,4,10,0,0,0,0.0649,0.1292,0,0
+Standard Class,4,CASH,Corporate,Footwear,Cardio Equipment,Pacific Asia,Eastern Asia,1,99.98999786,99.98999786,15.0,27.62000084,2,3,4,0,0,0,0.2735,0.1485,0,0
+Standard Class,4,PAYMENT,Corporate,Apparel,Men's Footwear,Europe,Northern Europe,1,129.9900055,129.9900055,20.79999924,-72.83000183,7,0,13,0,0,0,-0.556,0.1588,1,0
+First Class,1,DEBIT,Corporate,Technology,Computers,Europe,Southern Europe,1,1500.0,1500.0,0.0,112.5,10,6,15,1,1,0,0.075,0.0,0,1
+Standard Class,4,TRANSFER,Home Office,Technology,Cameras ,Europe,Western Europe,1,452.0400085,452.0400085,90.41000366,104.1500015,10,0,2,0,0,0,0.2299,0.1996,0,0
+Standard Class,4,PAYMENT,Corporate,Footwear,Electronics,USCA,West of USA ,2,31.98999977,63.97999954,16.0,13.43999958,7,5,3,1,0,0,0.2068,0.2462,0,1
+Standard Class,4,DEBIT,Consumer,Fan Shop,Fishing,LATAM,Central America,1,399.980011,399.980011,100.0,72.0,2,5,14,1,0,0,0.1796,0.2494,0,1
+Standard Class,4,CASH,Consumer,Golf,Women's Apparel,Pacific Asia,Southeast Asia,1,50.0,50.0,4.5,21.84000015,2,4,21,0,0,0,0.4282,0.0882,0,0
+Standard Class,4,CASH,Corporate,Golf,Women's Apparel,LATAM,Caribbean,3,50.0,150.0,19.5,46.97999954,3,4,20,0,0,0,0.3111,0.1291,0,0
+First Class,1,DEBIT,Consumer,Discs Shop,CDs ,Pacific Asia,South Asia,1,11.28999996,11.28999996,1.129999995,4.880000114,12,3,0,0,1,0,0.3971,0.0919,0,1
+Second Class,2,PAYMENT,Corporate,Fan Shop,Fishing,Pacific Asia,Southeast Asia,1,399.980011,399.980011,80.0,100.1500015,1,2,21,0,0,0,0.2498,0.1995,0,1
+Standard Class,4,DEBIT,Corporate,Golf,Women's Apparel,Europe,Western Europe,4,50.0,200.0,4.0,17.25,10,1,1,0,0,0,0.0858,0.0199,0,0
+Standard Class,4,TRANSFER,Consumer,Outdoors,Golf Balls,LATAM,Central America,1,14.98999977,14.98999977,0.150000006,5.389999866,3,1,3,0,0,0,0.3371,0.0094,0,1
+Standard Class,4,CASH,Consumer,Fan Shop,Water Sports,LATAM,Central America,1,199.9900055,199.9900055,11.0,33.63999939,5,2,11,0,0,0,0.1674,0.0547,0,0
+First Class,1,PAYMENT,Consumer,Golf,Women's Apparel,Pacific Asia,South Asia,3,50.0,150.0,18.0,1.320000052,2,6,14,1,1,0,0.0087,0.1192,0,1
+First Class,1,CASH,Corporate,Outdoors,Accessories,LATAM,South America,3,24.98999977,74.97000122,0.0,-6.599999905,3,2,3,0,1,0,-0.0869,0.0,1,1
+First Class,1,TRANSFER,Consumer,Fan Shop,Water Sports,Europe,Western Europe,1,199.9900055,199.9900055,14.0,-21.02000046,8,1,0,0,1,0,-0.1046,0.0697,1,1
+Standard Class,4,DEBIT,Corporate,Footwear,Cardio Equipment,USCA,East of USA,3,99.98999786,299.9700012,3.0,33.56000137,5,5,12,1,0,0,0.1115,0.01,0,0
+Standard Class,4,TRANSFER,Corporate,Outdoors,Golf Apparel,LATAM,South America,1,129.9900055,129.9900055,23.39999962,49.02999878,5,1,3,0,0,0,0.3743,0.1786,0,1
+Standard Class,4,DEBIT,Corporate,Golf,Women's Apparel,LATAM,South America,2,50.0,100.0,1.0,3.960000038,1,3,19,0,0,0,0.0392,0.0099,0,0
+Standard Class,4,PAYMENT,Corporate,Fitness,Baseball & Softball,Europe,Eastern Europe,4,34.99000168,139.9600067,16.79999924,9.239999771,9,1,11,0,0,0,0.0656,0.1192,0,1
+First Class,1,DEBIT,Corporate,Fan Shop,Camping & Hiking,USCA,South of  USA ,1,299.980011,299.980011,9.0,21.8199997,7,0,10,0,1,0,0.0725,0.0299,0,1
+Second Class,2,DEBIT,Corporate,Golf,Women's Apparel,Pacific Asia,West Asia,1,50.0,50.0,4.5,16.52000046,9,4,20,0,0,0,0.3239,0.0882,0,0

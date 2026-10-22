@@ -1,0 +1,571 @@
+{
+  "feature_columns": [
+    "Shipping Mode",
+    "Days for shipment (scheduled)",
+    "Type",
+    "Customer Segment",
+    "Department Name",
+    "Category Name",
+    "Market",
+    "Order Region",
+    "Order Item Quantity",
+    "Product Price",
+    "Sales",
+    "Order Item Discount",
+    "Order Profit Per Order",
+    "order_month",
+    "order_dayofweek",
+    "order_hour",
+    "is_weekend",
+    "is_rush_delivery",
+    "is_same_country",
+    "profit_margin",
+    "discount_ratio",
+    "is_loss_order"
+  ],
+  "cat_features": [
+    "Shipping Mode",
+    "Type",
+    "Customer Segment",
+    "Department Name",
+    "Category Name",
+    "Market",
+    "Order Region"
+  ],
+  "num_features": [
+    "Days for shipment (scheduled)",
+    "Order Item Quantity",
+    "Product Price",
+    "Sales",
+    "Order Item Discount",
+    "Order Profit Per Order",
+    "order_month",
+    "order_dayofweek",
+    "order_hour",
+    "is_weekend",
+    "is_rush_delivery",
+    "is_same_country",
+    "profit_margin",
+    "discount_ratio",
+    "is_loss_order"
+  ],
+  "metrics_summary": {
+    "Decision Tree": {
+      "Accuracy": 0.7305,
+      "Precision": 0.8476,
+      "Recall": 0.6513,
+      "F1 Score": 0.7366,
+      "ROC-AUC": 0.7918
+    },
+    "Random Forest": {
+      "Accuracy": 0.7408,
+      "Precision": 0.8917,
+      "Recall": 0.6284,
+      "F1 Score": 0.7372,
+      "ROC-AUC": 0.8108
+    },
+    "XGBoost": {
+      "Accuracy": 0.7408,
+      "Precision": 0.8809,
+      "Recall": 0.6383,
+      "F1 Score": 0.7403,
+      "ROC-AUC": 0.8108
+    },
+    "LightGBM": {
+      "Accuracy": 0.7412,
+      "Precision": 0.8858,
+      "Recall": 0.6345,
+      "F1 Score": 0.7393,
+      "ROC-AUC": 0.8115
+    }
+  },
+  "confusion_matrices": {
+    "Decision Tree": [
+      [
+        4244,
+        813
+      ],
+      [
+        2421,
+        4522
+      ]
+    ],
+    "Random Forest": [
+      [
+        4527,
+        530
+      ],
+      [
+        2580,
+        4363
+      ]
+    ],
+    "XGBoost": [
+      [
+        4458,
+        599
+      ],
+      [
+        2511,
+        4432
+      ]
+    ],
+    "LightGBM": [
+      [
+        4489,
+        568
+      ],
+      [
+        2538,
+        4405
+      ]
+    ]
+  },
+  "feature_importances": {
+    "Decision Tree": [
+      {
+        "feature": "num__Days for shipment (scheduled)",
+        "importance": 0.5845003904923042
+      },
+      {
+        "feature": "num__order_hour",
+        "importance": 0.1845007659742299
+      },
+      {
+        "feature": "cat__Shipping Mode_Same Day",
+        "importance": 0.0887996589750872
+      },
+      {
+        "feature": "num__profit_margin",
+        "importance": 0.020595036913854524
+      },
+      {
+        "feature": "num__Order Profit Per Order",
+        "importance": 0.017347220651213947
+      },
+      {
+        "feature": "num__discount_ratio",
+        "importance": 0.01316622402137861
+      },
+      {
+        "feature": "num__Order Item Discount",
+        "importance": 0.012989403577587294
+      },
+      {
+        "feature": "num__order_dayofweek",
+        "importance": 0.012587611962635208
+      },
+      {
+        "feature": "num__order_month",
+        "importance": 0.009367637856418101
+      },
+      {
+        "feature": "cat__Type_TRANSFER",
+        "importance": 0.009214983235889684
+      },
+      {
+        "feature": "num__Sales",
+        "importance": 0.006835652425585457
+      },
+      {
+        "feature": "num__Product Price",
+        "importance": 0.004562605688343409
+      },
+      {
+        "feature": "num__Order Item Quantity",
+        "importance": 0.004038802706384041
+      },
+      {
+        "feature": "cat__Customer Segment_Home Office",
+        "importance": 0.002359381296788666
+      },
+      {
+        "feature": "cat__Type_CASH",
+        "importance": 0.002328359347548869
+      },
+      {
+        "feature": "cat__Order Region_Northern Europe",
+        "importance": 0.001974283880686503
+      },
+      {
+        "feature": "cat__Customer Segment_Corporate",
+        "importance": 0.0015753149166141782
+      },
+      {
+        "feature": "cat__Type_PAYMENT",
+        "importance": 0.0015584105790991496
+      },
+      {
+        "feature": "cat__Order Region_West Asia",
+        "importance": 0.0013944530248126382
+      },
+      {
+        "feature": "cat__Order Region_Western Europe",
+        "importance": 0.00126616614396004
+      }
+    ],
+    "Random Forest": [
+      {
+        "feature": "num__Days for shipment (scheduled)",
+        "importance": 0.24277083973598473
+      },
+      {
+        "feature": "cat__Shipping Mode_Standard Class",
+        "importance": 0.16270825781233444
+      },
+      {
+        "feature": "cat__Shipping Mode_First Class",
+        "importance": 0.13736619365939012
+      },
+      {
+        "feature": "num__is_rush_delivery",
+        "importance": 0.08606510393541235
+      },
+      {
+        "feature": "num__order_hour",
+        "importance": 0.07214880384986834
+      },
+      {
+        "feature": "cat__Shipping Mode_Second Class",
+        "importance": 0.06268939496684
+      },
+      {
+        "feature": "cat__Shipping Mode_Same Day",
+        "importance": 0.039808471123543854
+      },
+      {
+        "feature": "num__profit_margin",
+        "importance": 0.018430258174439336
+      },
+      {
+        "feature": "num__Order Profit Per Order",
+        "importance": 0.018391387647569524
+      },
+      {
+        "feature": "num__Order Item Discount",
+        "importance": 0.015522664943709661
+      },
+      {
+        "feature": "num__discount_ratio",
+        "importance": 0.015087266046303558
+      },
+      {
+        "feature": "cat__Type_TRANSFER",
+        "importance": 0.012543298624905042
+      },
+      {
+        "feature": "num__order_month",
+        "importance": 0.01047847252597488
+      },
+      {
+        "feature": "num__order_dayofweek",
+        "importance": 0.010421468544283365
+      },
+      {
+        "feature": "num__Sales",
+        "importance": 0.009682244894887256
+      },
+      {
+        "feature": "num__Product Price",
+        "importance": 0.007606943490146036
+      },
+      {
+        "feature": "cat__Type_PAYMENT",
+        "importance": 0.006072708377601689
+      },
+      {
+        "feature": "num__Order Item Quantity",
+        "importance": 0.0047840818281021215
+      },
+      {
+        "feature": "cat__Customer Segment_Consumer",
+        "importance": 0.0035945199311345245
+      },
+      {
+        "feature": "cat__Customer Segment_Corporate",
+        "importance": 0.00351888167776011
+      }
+    ],
+    "XGBoost": [
+      {
+        "feature": "cat__Shipping Mode_Standard Class",
+        "importance": 0.4407532215118408
+      },
+      {
+        "feature": "cat__Shipping Mode_First Class",
+        "importance": 0.1456630676984787
+      },
+      {
+        "feature": "num__Days for shipment (scheduled)",
+        "importance": 0.07647910714149475
+      },
+      {
+        "feature": "cat__Shipping Mode_Same Day",
+        "importance": 0.07154939323663712
+      },
+      {
+        "feature": "cat__Shipping Mode_Second Class",
+        "importance": 0.060316089540719986
+      },
+      {
+        "feature": "num__is_rush_delivery",
+        "importance": 0.015129301697015762
+      },
+      {
+        "feature": "num__order_hour",
+        "importance": 0.0083435894921422
+      },
+      {
+        "feature": "cat__Type_TRANSFER",
+        "importance": 0.006914797704666853
+      },
+      {
+        "feature": "cat__Type_CASH",
+        "importance": 0.0029202383011579514
+      },
+      {
+        "feature": "cat__Category Name_Baseball & Softball",
+        "importance": 0.002788000274449587
+      },
+      {
+        "feature": "cat__Type_PAYMENT",
+        "importance": 0.002741003641858697
+      },
+      {
+        "feature": "cat__Order Region_West Asia",
+        "importance": 0.002661378588527441
+      },
+      {
+        "feature": "cat__Market_Africa",
+        "importance": 0.0025835989508777857
+      },
+      {
+        "feature": "cat__Customer Segment_Home Office",
+        "importance": 0.002557570580393076
+      },
+      {
+        "feature": "cat__Order Region_North Africa",
+        "importance": 0.0025116459000855684
+      },
+      {
+        "feature": "cat__Order Region_US Center ",
+        "importance": 0.00235642003826797
+      },
+      {
+        "feature": "cat__Order Region_Eastern Europe",
+        "importance": 0.00230255164206028
+      },
+      {
+        "feature": "cat__Department Name_Technology",
+        "importance": 0.0022631133906543255
+      },
+      {
+        "feature": "cat__Order Region_Oceania",
+        "importance": 0.0022594216279685497
+      },
+      {
+        "feature": "cat__Category Name_Music",
+        "importance": 0.0022412282414734364
+      }
+    ],
+    "LightGBM": [
+      {
+        "feature": "num__order_hour",
+        "importance": 465
+      },
+      {
+        "feature": "num__profit_margin",
+        "importance": 307
+      },
+      {
+        "feature": "num__Order Profit Per Order",
+        "importance": 283
+      },
+      {
+        "feature": "num__Order Item Discount",
+        "importance": 271
+      },
+      {
+        "feature": "num__discount_ratio",
+        "importance": 244
+      },
+      {
+        "feature": "num__order_dayofweek",
+        "importance": 235
+      },
+      {
+        "feature": "num__order_month",
+        "importance": 203
+      },
+      {
+        "feature": "cat__Type_TRANSFER",
+        "importance": 170
+      },
+      {
+        "feature": "num__Sales",
+        "importance": 136
+      },
+      {
+        "feature": "num__Product Price",
+        "importance": 124
+      },
+      {
+        "feature": "cat__Shipping Mode_First Class",
+        "importance": 67
+      },
+      {
+        "feature": "cat__Type_DEBIT",
+        "importance": 61
+      },
+      {
+        "feature": "cat__Shipping Mode_Same Day",
+        "importance": 56
+      },
+      {
+        "feature": "cat__Customer Segment_Home Office",
+        "importance": 47
+      },
+      {
+        "feature": "cat__Type_PAYMENT",
+        "importance": 44
+      },
+      {
+        "feature": "cat__Shipping Mode_Second Class",
+        "importance": 43
+      },
+      {
+        "feature": "num__Order Item Quantity",
+        "importance": 41
+      },
+      {
+        "feature": "cat__Customer Segment_Corporate",
+        "importance": 39
+      },
+      {
+        "feature": "cat__Customer Segment_Consumer",
+        "importance": 36
+      },
+      {
+        "feature": "cat__Type_CASH",
+        "importance": 35
+      }
+    ]
+  },
+  "categories_metadata": {
+    "Shipping Mode": [
+      "First Class",
+      "Same Day",
+      "Second Class",
+      "Standard Class"
+    ],
+    "Type": [
+      "CASH",
+      "DEBIT",
+      "PAYMENT",
+      "TRANSFER"
+    ],
+    "Customer Segment": [
+      "Consumer",
+      "Corporate",
+      "Home Office"
+    ],
+    "Department Name": [
+      "Apparel",
+      "Book Shop",
+      "Discs Shop",
+      "Fan Shop",
+      "Fitness",
+      "Footwear",
+      "Golf",
+      "Health and Beauty ",
+      "Outdoors",
+      "Pet Shop",
+      "Technology"
+    ],
+    "Category Name": [
+      "Accessories",
+      "As Seen on  TV!",
+      "Baby ",
+      "Baseball & Softball",
+      "Basketball",
+      "Books ",
+      "Boxing & MMA",
+      "CDs ",
+      "Cameras ",
+      "Camping & Hiking",
+      "Cardio Equipment",
+      "Children's Clothing",
+      "Cleats",
+      "Computers",
+      "Consumer Electronics",
+      "Crafts",
+      "DVDs",
+      "Electronics",
+      "Fishing",
+      "Fitness Accessories",
+      "Garden",
+      "Girls' Apparel",
+      "Golf Apparel",
+      "Golf Bags & Carts",
+      "Golf Balls",
+      "Golf Gloves",
+      "Golf Shoes",
+      "Health and Beauty",
+      "Hockey",
+      "Hunting & Shooting",
+      "Kids' Golf Clubs",
+      "Lacrosse",
+      "Men's Clothing",
+      "Men's Footwear",
+      "Men's Golf Clubs",
+      "Music",
+      "Pet Supplies",
+      "Shop By Sport",
+      "Soccer",
+      "Sporting Goods",
+      "Strength Training",
+      "Tennis & Racquet",
+      "Toys",
+      "Trade-In",
+      "Video Games",
+      "Water Sports",
+      "Women's Apparel",
+      "Women's Clothing",
+      "Women's Golf Clubs"
+    ],
+    "Market": [
+      "Africa",
+      "Europe",
+      "LATAM",
+      "Pacific Asia",
+      "USCA"
+    ],
+    "Order Region": [
+      "Canada",
+      "Caribbean",
+      "Central Africa",
+      "Central America",
+      "Central Asia",
+      "East Africa",
+      "East of USA",
+      "Eastern Asia",
+      "Eastern Europe",
+      "North Africa",
+      "Northern Europe",
+      "Oceania",
+      "South America",
+      "South Asia",
+      "South of  USA ",
+      "Southeast Asia",
+      "Southern Africa",
+      "Southern Europe",
+      "US Center ",
+      "West Africa",
+      "West Asia",
+      "West of USA ",
+      "Western Europe"
+    ]
+  },
+  "dataset_size_used": 60000,
+  "test_samples_count": 12000
+}
